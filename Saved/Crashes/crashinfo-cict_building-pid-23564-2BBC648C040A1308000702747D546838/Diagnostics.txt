@@ -1,0 +1,49 @@
+Generating report for minidump
+
+Application version 4.13.0.0
+ ... built from changelist 0
+
+OS version Linux 4.4.0-38-generic (network name: solidarios)
+Running 2 x86_64 processors (4 logical cores)
+Exception was "SIGSEGV: invalid attempt to access memory at address 0x00000003"
+
+<SOURCE START>
+<SOURCE END>
+
+<CALLSTACK START>
+Unknown!FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*) + some bytes
+Unknown!FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*) + some bytes
+Unknown!FLinuxCrashContext::CaptureStackTrace() + some bytes
+Unknown!CommonLinuxCrashHandler(FGenericCrashContext const&) + some bytes
+Unknown!PlatformCrashHandler(int, siginfo_t*, void*) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libpthread.so.0(+0x113d0) [0x7f9adb8673d0] + some bytes
+Unknown!FGenericPlatformMisc::RaiseException(unsigned int) + some bytes
+Unknown!FOutputDeviceLinuxError::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&) + some bytes
+Unknown!FOutputDevice::Logf(wchar_t const*, ...) + some bytes
+Unknown!FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...) + some bytes
+Unknown!FRenderResource::ReleaseResource() + some bytes
+Unknown!FDynamicIndexBufferPool::~FDynamicIndexBufferPool() + some bytes
+Unknown!FGlobalDynamicIndexBuffer::~FGlobalDynamicIndexBuffer() + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(+0x39fe8) [0x7f9acf13bfe8] + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(+0x3a035) [0x7f9acf13c035] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3fb18) [0x7f9aafc68b18] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7f9aafc68c4d] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3cad7) [0x7f9aafc65ad7] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3cb95) [0x7f9aafc65b95] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x55) [0x7f9aafc66555] + some bytes
+Unknown!/usr/lib/x86_64-linux-gnu/libX11.so.6(XFlush+0x1a) [0x7f9aafc47e4a] + some bytes
+Unknown!/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x680a13) [0x7f9adacd8a13] + some bytes
+Unknown!/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x645987) [0x7f9adac9d987] + some bytes
+Unknown!/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x645fdd) [0x7f9adac9dfdd] + some bytes
+Unknown!FLinuxPlatformMisc::PumpMessages(bool) + some bytes
+/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/UE4Editor!FEngineLoop::Tick() + some bytes [Runtime/Core/Public/UObject/NameTypes.h:633]
+/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/UE4Editor!GuardedMain(wchar_t const*) + some bytes [/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp:156]
+Unknown!CommonLinuxMain(int, char**, int (*)(wchar_t const*)) + some bytes
+Unknown!/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f9acf122830] + some bytes
+Unknown!/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/UE4Editor(_start+0x29) [0x413869] + some bytes
+
+<CALLSTACK END>
+
+0 loaded modules
+
+Report end!

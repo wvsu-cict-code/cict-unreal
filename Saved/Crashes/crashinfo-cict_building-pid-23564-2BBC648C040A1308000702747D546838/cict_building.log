@@ -1,0 +1,534 @@
+﻿Log file open, 10/08/16 19:03:39
+LogInit:Display: Running engine for game: cict_building
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1892574060) SRandInit(1892574060).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.036267
+LogPluginManager: Loaded Plugin Paper2D, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin StructBox, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin OSVR, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeView, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin Phya, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin SteamController, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin TwitchLiveStreaming, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/TwitchLiveStreaming/TwitchLiveStreaming.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin Oodle, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Flurry, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogModuleManager:Warning: No filename provided for module XMPP
+LogModuleManager:Warning: ModuleManager: Unable to load module 'XMPP' because the file '/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/' was not found.
+LogInit: Using libcurl 7.46.0
+LogInit:  - built for x86_64-pc-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2d
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.5
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: UE4-CL-0
+LogInit: Engine Version: 4.13.0-0+UE4
+LogInit: Compatible Engine Version: 4.13.0-0+UE4
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 25 2016 09:39:13
+LogInit: Compiled with Clang: 3.8.0 (tags/RELEASE_380/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.08-11.03.42:068][  0]LogInit: Initializing SDL.
+[2016.10.08-11.03.42:209][  0]LogInit: Initialized SDL 2.0.4 (compiled against 2.0.4)
+[2016.10.08-11.03.42:209][  0]LogInit: Display metrics:
+[2016.10.08-11.03.42:209][  0]LogInit:   PrimaryDisplayWidth: 1366
+[2016.10.08-11.03.42:209][  0]LogInit:   PrimaryDisplayHeight: 768
+[2016.10.08-11.03.42:209][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2016.10.08-11.03.42:209][  0]LogInit:     Left=0, Top=31, Right=1366, Bottom=768
+[2016.10.08-11.03.42:209][  0]LogInit:   VirtualDisplayRect:
+[2016.10.08-11.03.42:209][  0]LogInit:     Left=0, Top=31, Right=1366, Bottom=768
+[2016.10.08-11.03.42:209][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2016.10.08-11.03.42:209][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2016.10.08-11.03.42:209][  0]LogInit:   Number of monitors: 1
+[2016.10.08-11.03.42:209][  0]LogInit:     Monitor 0
+[2016.10.08-11.03.42:209][  0]LogInit:       Name: 936W 19"
+[2016.10.08-11.03.42:209][  0]LogInit:       ID: display0
+[2016.10.08-11.03.42:209][  0]LogInit:       NativeWidth: 1366
+[2016.10.08-11.03.42:209][  0]LogInit:       NativeHeight: 768
+[2016.10.08-11.03.42:209][  0]LogInit:       bIsPrimary: true
+[2016.10.08-11.03.42:210][  0]LogLinux: Selected Device Profile: [Linux]
+[2016.10.08-11.03.42:210][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2016.10.08-11.03.42:247][  0]LogInit: Linux hardware info:
+[2016.10.08-11.03.42:248][  0]LogInit:  - we are the first instance of this executable
+[2016.10.08-11.03.42:248][  0]LogInit:  - this process' id (pid) is 23564, parent process' id (ppid) is 1981
+[2016.10.08-11.03.42:248][  0]LogInit:  - we are not running under debugger
+[2016.10.08-11.03.42:248][  0]LogInit:  - machine network name is 'solidarios'
+[2016.10.08-11.03.42:248][  0]LogInit:  - user name is 'mj' (mj)
+[2016.10.08-11.03.42:248][  0]LogInit:  - we're logged in locally
+[2016.10.08-11.03.42:248][  0]LogInit:  - we're running with rendering
+[2016.10.08-11.03.42:248][  0]LogInit:  - CPU: GenuineIntel '       Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz' (signature: 0x306A9)
+[2016.10.08-11.03.42:248][  0]LogInit:  - Number of physical cores available for the process: 2
+[2016.10.08-11.03.42:248][  0]LogInit:  - Number of logical cores available for the process: 4
+[2016.10.08-11.03.42:248][  0]LogInit:  - Cache line size: 64
+[2016.10.08-11.03.42:248][  0]LogInit:  - Memory allocator used: jemalloc
+[2016.10.08-11.03.42:248][  0]LogLinux: Benchmarking clocks
+[2016.10.08-11.03.42:348][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 40628517 (40629K, 41M) calls per second without zero deltas
+[2016.10.08-11.03.42:448][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 41253327 (41253K, 41M) calls per second without zero deltas
+[2016.10.08-11.03.42:548][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 11090631 (11091K, 11M) calls per second without zero deltas
+[2016.10.08-11.03.42:645][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 112429734 (112430K, 112M) calls per second with 99.999769% zero deltas
+[2016.10.08-11.03.42:645][  0]LogInit: Linux-specific commandline switches:
+[2016.10.08-11.03.42:645][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2016.10.08-11.03.42:645][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2016.10.08-11.03.42:645][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2016.10.08-11.03.42:645][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2016.10.08-11.03.42:645][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2016.10.08-11.03.42:645][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2016.10.08-11.03.42:645][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2016.10.08-11.03.42:646][  0]LogInit:  - Physical RAM available (not considering process quota): 4 GB (3843 MB, 3935752 KB, 4030210048 bytes)
+[2016.10.08-11.03.42:769][  0]LogTextLocalizationManager: No specific translations for ('en-PH') exist, so ('en') translations will be used.
+[2016.10.08-11.03.44:632][  0]LogRHI: Initializing OpenGL RHI
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_VENDOR: Intel Open Source Technology Center
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_RENDERER: Mesa DRI Intel(R) Ivybridge Mobile 
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_VERSION: 3.3 (Core Profile) Mesa 11.2.0
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 3.30
+[2016.10.08-11.03.44:632][  0]LogRHI: OpenGL Extensions:
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_3DFX_texture_compression_FXT1
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_conservative_depth
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_draw_buffers_blend
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_performance_monitor
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_shader_trinary_minmax
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_vertex_shader_layer
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_AMD_vertex_shader_viewport_index
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ANGLE_texture_compression_dxt3
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ANGLE_texture_compression_dxt5
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_APPLE_object_purgeable
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_base_instance
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_blend_func_extended
+[2016.10.08-11.03.44:632][  0]LogRHI:   GL_ARB_buffer_storage
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_clear_texture
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_clip_control
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_compute_shader
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_conservative_depth
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_copy_buffer
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_copy_image
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_debug_output
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_depth_clamp
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_derivative_control
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_direct_state_access
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_draw_buffers
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_draw_indirect
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_draw_instanced
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_fragment_shader
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_framebuffer_object
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_get_program_binary
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_gpu_shader5
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_half_float_pixel
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_half_float_vertex
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_instanced_arrays
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_internalformat_query
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_map_buffer_range
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_multi_bind
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_occlusion_query2
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_point_sprite
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_program_interface_query
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_provoking_vertex
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_robustness
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_sample_shading
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_sampler_objects
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_clock
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_image_size
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_objects
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_subroutine
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_shading_language_packing
+[2016.10.08-11.03.44:633][  0]LogRHI:   GL_ARB_sync
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_tessellation_shader
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_barrier
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_float
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_gather
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_multisample
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_query_levels
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_query_lod
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_rectangle
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_rg
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_storage
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_swizzle
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_texture_view
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_timer_query
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_transform_feedback2
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_transform_feedback3
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_array_object
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_shader
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ARB_viewport_array
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ATI_blend_equation_separate
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_ATI_texture_float
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_abgr
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_draw_buffers2
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_draw_instanced
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_packed_float
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_provoking_vertex
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_shader_samples_identical
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_array
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_integer
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_sRGB
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_snorm
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_texture_swizzle
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_timer_query
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_transform_feedback
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_IBM_multimode_draw_arrays
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_INTEL_performance_query
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_KHR_context_flush_control
+[2016.10.08-11.03.44:634][  0]LogRHI:   GL_KHR_debug
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_MESA_pack_invert
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_MESA_texture_signed_rgba
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_NV_conditional_render
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_NV_depth_clamp
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_NV_texture_barrier
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_OES_EGL_image
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_OES_read_format
+[2016.10.08-11.03.44:635][  0]LogRHI:   GL_S3_s3tc
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 8192
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 8192
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 8192
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 16
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_SAMPLES: 8
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 8
+[2016.10.08-11.03.44:636][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 8
+[2016.10.08-11.03.44:637][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 8
+[2016.10.08-11.03.44:637][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 96
+[2016.10.08-11.03.44:637][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2016.10.08-11.03.44:637][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2016.10.08-11.03.44:637][  0]LogRHI: OpenGL MajorVersion = 3, MinorVersion = 3, ShaderPlatform = GLSL_150, FeatureLevel = SM4
+[2016.10.08-11.03.44:649][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/cict_building/Intermediate/Shaders/WorkingDirectory/23564/).
+[2016.10.08-11.03.44:649][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Documents/Unreal Projects/cict_building/Intermediate/Shaders/tmp/0003F5E92C0A13080003028971638BCA/'.
+[2016.10.08-11.03.44:650][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.08-11.03.47:115][  0]LogHAL: FLinuxPlatformProcess::CreateProc: '/usr/bin/mono "/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe" -validateplatform -allplatforms'
+[2016.10.08-11.03.47:120][  0]LogHAL: FLinuxPlatformProcess::CreateProc: spawned child 23585
+[2016.10.08-11.03.48:186][  0]LogHAL: Child 23585 is no longer running (zombie), Wait()ing immediately.
+[2016.10.08-11.03.48:186][  0]LogHAL: Child 23585's return code is 0.
+[2016.10.08-11.03.48:186][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.08-11.03.48:784][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.08-11.03.49:387][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.08-11.03.49:985][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.08-11.03.50:599][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.08-11.03.51:215][  0]LogTemp:Display: Failed to get target platform HTML5TargetPlatform
+[2016.10.08-11.03.51:215][  0]LogTargetPlatformManager:Display: Building Assets For Linux
+[2016.10.08-11.03.52:442][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.08-11.03.59:026][  0]LogDerivedDataCache: Loaded boot cache 6.57s 104MB ../../../../../../Documents/Unreal Projects/cict_building/DerivedDataCache/Boot.ddc.
+[2016.10.08-11.03.59:026][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../../Documents/Unreal Projects/cict_building/DerivedDataCache/Boot.ddc
+[2016.10.08-11.03.59:027][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/cict_building/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.08-11.03.59:027][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.08-11.03.59:059][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.08-11.03.59:059][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.10.08-11.03.59:061][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.10.08-11.03.59:061][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.10.08-11.03.59:061][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.10.08-11.03.59:389][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2016.10.08-11.03.59:420][  0]LogLinux: Selected Device Profile: [Linux]
+[2016.10.08-11.04.00:089][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.08-11.04.00:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.08-11.04.00:090][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.08-11.04.00:703][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.08-11.04.01:626][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: cict_building, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 59465066
+[2016.10.08-11.04.01:670][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.08-11.04.02:403][  0]LogAssetRegistry: FAssetRegistry took 0.0013 seconds to start up
+[2016.10.08-11.04.04:699][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.142256 seconds
+[2016.10.08-11.04.04:705][  0]LogUObjectArray: 31907 objects as part of root set at end of initial load.
+[2016.10.08-11.04.04:705][  0]LogUObjectAllocator: 6855840 out of 0 bytes used by permanent object pool.
+[2016.10.08-11.04.04:705][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.08-11.04.14:013][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2016.10.08-11.04.14:014][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2016.10.08-11.04.15:808][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.08-11.04.23:149][  0]LogDesktopPlatform: DesktopPlatformLinux is not using LinuxNativeDialogs.
+[2016.10.08-11.04.24:180][  0]SourceControl: Info Source control is disabled
+[2016.10.08-11.04.24:181][  0]SourceControl: Info Source control is disabled
+[2016.10.08-11.04.24:683][  0]SourceControl: Info Source control is disabled
+[2016.10.08-11.04.25:186][  0]LogHAL: FLinuxPlatformProcess::CreateProc: '/usr/bin/git version'
+[2016.10.08-11.04.25:198][  0]LogHAL: FLinuxPlatformProcess::CreateProc: spawned child 23613
+[2016.10.08-11.04.25:211][  0]LogHAL: Child 23613 is no longer running (zombie), Wait()ing immediately.
+[2016.10.08-11.04.25:211][  0]LogHAL: Child 23613's return code is 0.
+[2016.10.08-11.04.25:712][  0]SourceControl: Info Source control is disabled
+[2016.10.08-11.04.35:803][  0]LogEngine: Initializing Engine...
+[2016.10.08-11.04.37:536][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.08-11.04.37:544][  0]LogALAudio: ALAudio device opened : OpenAL Soft
+[2016.10.08-11.04.37:547][  0]LogALAudio: AL_VENDOR      : OpenAL Community
+[2016.10.08-11.04.37:547][  0]LogALAudio: AL_RENDERER    : OpenAL Soft
+[2016.10.08-11.04.37:547][  0]LogALAudio: AL_VERSION     : 1.1 ALSOFT 1.15.1
+[2016.10.08-11.04.37:547][  0]LogALAudio: AL_EXTENSIONS  : AL_EXT_ALAW AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_LOKI_quadriphonic AL_SOFT_buffer_samples AL_SOFT_buffer_sub_data AL_SOFTX_deferred_updates AL_SOFT_direct_channels AL_SOFT_loop_points AL_SOFT_source_latency
+[2016.10.08-11.04.37:547][  0]LogInit: FAudioDevice initialized.
+[2016.10.08-11.04.37:635][  0]LogDerivedDataCache: Saved boot cache 0.09s 104MB ../../../../../../Documents/Unreal Projects/cict_building/DerivedDataCache/Boot.ddc.
+[2016.10.08-11.04.39:134][  0]LogInit: Texture streaming: Enabled
+[2016.10.08-11.04.40:413][  0]LogInit: Transaction tracking system initialized
+[2016.10.08-11.04.44:450][  0]BlueprintLog: New page: Editor Load
+[2016.10.08-11.04.54:796][  0]LocalizationService: Info Localization service is disabled
+[2016.10.08-11.05.00:719][  0]LogConsoleResponse:Display: 
+[2016.10.08-11.05.01:396][  0]LogFileCache: Scanning file cache for directory '/home/mj/Documents/Unreal Projects/cict_building/Content/' took 0.03s
+[2016.10.08-11.05.01:396][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.08-11.05.01:396][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.08-11.05.13:498][  0]SourceControl: Info Source control is disabled
+[2016.10.08-11.05.13:498][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/cict_building/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.10.08-11.05.13:518][  0]LightingResults: New page: Lighting Build
+[2016.10.08-11.05.14:001][  0]MapCheck: New page: Map Check
+[2016.10.08-11.05.14:001][  0]LightingResults: New page: Lighting Build
+[2016.10.08-11.05.32:428][  0]LogAIModule: Creating AISystem for world StarterMap
+[2016.10.08-11.05.32:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.08-11.05.32:615][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.08-11.05.32:647][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.81ms to complete.
+[2016.10.08-11.05.32:648][  0]LogFileHelpers: Loading map 'StarterMap' took 19.145
+[2016.10.08-11.05.38:358][  0]LogCollectionManager: Loaded 0 collections in 0.016676 seconds
+[2016.10.08-11.05.38:395][  0]LogFileCache: Scanning file cache for directory '/home/mj/Documents/Unreal Projects/cict_building/Saved/Collections/' took 0.00s
+[2016.10.08-11.05.38:395][  0]LogFileCache: Scanning file cache for directory '/home/mj/Documents/Unreal Projects/cict_building/Content/Developers/mj/Collections/' took 0.00s
+[2016.10.08-11.05.38:395][  0]LogFileCache: Scanning file cache for directory '/home/mj/Documents/Unreal Projects/cict_building/Content/Collections/' took 0.00s
+[2016.10.08-11.05.38:395][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2120 classes and 386 folders.
+[2016.10.08-11.05.38:422][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.08-11.05.39:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.08-11.05.39:416][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.08-11.05.39:417][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.10.08-11.05.39:900][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.08-11.05.40:128][  0]LogFeaturePack:Warning: Error in Feature pack /home/mj/Repositories/unreal_update/UnrealEngine/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Comma token expected, but not found. Line: 31 Ch: 13
+[2016.10.08-11.05.41:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.10.08-11.05.42:214][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2016.10.08-11.05.42:889][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.08-11.05.42:926][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.08-11.05.43:422][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2016.10.08-11.05.43:423][  0]LogLoad: (Engine Initialization) Total time: 128.93 seconds
+[2016.10.08-11.05.43:423][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.81 seconds
+[2016.10.08-11.05.43:423][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.08-11.05.43:922][  0]LogRenderer: Reallocating scene render targets to support 684x376 (Frame:2).
+[2016.10.08-11.05.51:855][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.08-11.05.52:246][  2]LogAssetRegistry: Asset discovery search completed in 110.1917 seconds
+[2016.10.08-11.05.52:246][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.10.08-11.05.52:246][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
+[2016.10.08-11.06.19:823][ 49]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.08-11.06.21:093][ 49]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.10.08-11.06.21:832][ 49]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT)
+[2016.10.08-11.06.26:029][ 49]LogAIModule: Creating AISystem for world MainMap
+[2016.10.08-11.06.26:504][ 49]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/cict_building/Content/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.10.08-11.06.26:504][ 49]LightingResults: New page: Lighting Build
+[2016.10.08-11.06.26:505][ 49]LoadErrors: New page: Loading map: MainMap.umap
+[2016.10.08-11.06.26:522][ 49]MapCheck: New page: Map Check
+[2016.10.08-11.06.26:522][ 49]LightingResults: New page: Lighting Build
+[2016.10.08-11.06.26:756][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.08-11.06.26:797][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.08-11.06.29:216][ 49]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 2,418.751ms to complete.
+[2016.10.08-11.06.29:218][ 49]LogFileHelpers: Loading map 'MainMap' took 2.715
+[2016.10.08-11.06.57:313][408]LogStaticMesh: Building static mesh Box_Brush336_StaticMesh...
+[2016.10.08-11.06.57:338][408]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.10.08-11.06.57:361][408]LogStaticMesh: Built static mesh [0.08s] /Game/Geometry/Meshes/Box_Brush336_StaticMesh.Box_Brush336_StaticMesh
+[2016.10.08-11.06.57:598][408]LogActorFactory: Actor Factory created Box_Brush336_StaticMesh
+[2016.10.08-11.06.58:874][408]EditorErrors: New page: Actor Reattachment
+[2016.10.08-11.07.04:478][448]LogLinux:Error: appError called: Assertion failed: Assertion failed: IsInRenderingThread() [File:/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp] [Line: 40] 
+
+
+[2016.10.08-11.07.04:528][448]LogCrashTracker: 
+
+
+[2016.10.08-11.07.04:625][448]LogLinux: === Critical error: ===
+Unhandled Exception: SIGSEGV: invalid attempt to access memory at address 0x00000003
+
+[2016.10.08-11.07.04:626][448]LogLinux: Assertion failed: Assertion failed: IsInRenderingThread() [File:/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Source/Runtime/RenderCore/Private/RenderResource.cpp] [Line: 40] 
+
+
+
+[Callstack]  00  0x00007f9adaa2016f  FLinuxPlatformStackWalk::CaptureStackBackTrace(unsigned long long*, unsigned int, void*)
+[Callstack]  01  0x00007f9ada8fd365  FGenericPlatformStackWalk::StackWalkAndDump(char*, unsigned long, int, void*)
+[Callstack]  02  0x00007f9ada9deb91  FLinuxCrashContext::CaptureStackTrace()
+[Callstack]  03  0x00007f9acfc043a0  CommonLinuxCrashHandler(FGenericCrashContext const&)
+[Callstack]  04  0x00007f9ada9e3404  PlatformCrashHandler(int, siginfo_t*, void*)
+[Callstack]  05  0x00007f9adb8673d0  /lib/x86_64-linux-gnu/libpthread.so.0(+0x113d0) [0x7f9adb8673d0]
+[Callstack]  06  0x00007f9ada8f18cb  FGenericPlatformMisc::RaiseException(unsigned int)
+[Callstack]  07  0x00007f9ada9ed908  FOutputDeviceLinuxError::Serialize(wchar_t const*, ELogVerbosity::Type, FName const&)
+[Callstack]  08  0x00007f9adaaabca7  FOutputDevice::Logf(wchar_t const*, ...)
+[Callstack]  09  0x00007f9adaa8adba  FDebug::AssertFailed(char const*, char const*, int, wchar_t const*, ...)
+[Callstack]  10  0x00007f9ad5063049  FRenderResource::ReleaseResource()
+[Callstack]  11  0x00007f9ad506cb00  FDynamicIndexBufferPool::~FDynamicIndexBufferPool()
+[Callstack]  12  0x00007f9ad5065f97  FGlobalDynamicIndexBuffer::~FGlobalDynamicIndexBuffer()
+[Callstack]  13  0x00007f9acf13bfe8  /lib/x86_64-linux-gnu/libc.so.6(+0x39fe8) [0x7f9acf13bfe8]
+[Callstack]  14  0x00007f9acf13c035  /lib/x86_64-linux-gnu/libc.so.6(+0x3a035) [0x7f9acf13c035]
+[Callstack]  15  0x00007f9aafc68b18  /usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3fb18) [0x7f9aafc68b18]
+[Callstack]  16  0x00007f9aafc68c4d  /usr/lib/x86_64-linux-gnu/libX11.so.6(_XError+0x11d) [0x7f9aafc68c4d]
+[Callstack]  17  0x00007f9aafc65ad7  /usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3cad7) [0x7f9aafc65ad7]
+[Callstack]  18  0x00007f9aafc65b95  /usr/lib/x86_64-linux-gnu/libX11.so.6(+0x3cb95) [0x7f9aafc65b95]
+[Callstack]  19  0x00007f9aafc66555  /usr/lib/x86_64-linux-gnu/libX11.so.6(_XEventsQueued+0x55) [0x7f9aafc66555]
+[Callstack]  20  0x00007f9aafc47e4a  /usr/lib/x86_64-linux-gnu/libX11.so.6(XFlush+0x1a) [0x7f9aafc47e4a]
+[Callstack]  21  0x00007f9adacd8a13  /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x680a13) [0x7f9adacd8a13]
+[Callstack]  22  0x00007f9adac9d987  /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x645987) [0x7f9adac9d987]
+[Callstack]  23  0x00007f9adac9dfdd  /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/libUE4Editor-Core.so(+0x645fdd) [0x7f9adac9dfdd]
+[Callstack]  24  0x00007f9ada9d1891  FLinuxPlatformMisc::PumpMessages(bool)
+[Callstack]  25  0x000000000042040d  FEngineLoop::Tick() [Runtime/Core/Public/UObject/NameTypes.h, line 633]
+[Callstack]  26  0x00000000004256fa  GuardedMain(wchar_t const*) [/home/mj/Repositories/unreal_update/UnrealEngine/Engine/Source/Runtime/Launch/Private/Launch.cpp, line 156]
+[Callstack]  27  0x00007f9acfc04d1b  CommonLinuxMain(int, char**, int (*)(wchar_t const*))
+[Callstack]  28  0x00007f9acf122830  /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0) [0x7f9acf122830]
+[Callstack]  29  0x0000000000413869  /home/mj/Repositories/unreal_update/UnrealEngine/Engine/Binaries/Linux/UE4Editor(_start+0x29) [0x413869]
+
